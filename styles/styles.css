@@ -1,0 +1,47 @@
+img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: solid 2px;
+  height: 100px;
+}
+
+header img {
+  max-width: 200px;
+}
+/* Navigation*/
+
+nav {
+  margin-left: 25px;
+  display: none;
+  position: fixed;
+  top: 130px;
+  background: black;
+  right: 0px;
+  text-align: center;
+  min-width: 450;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 20px 30px;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
