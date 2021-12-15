@@ -1,3 +1,13 @@
+body {
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+}
+
 img {
   width: 100%;
   max-width: 500px;
@@ -9,7 +19,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  border-bottom: solid 2px;
+  border: solid 2px;
   height: 100px;
 }
 
@@ -22,11 +32,22 @@ nav {
   margin-left: 25px;
   display: none;
   position: fixed;
-  top: 130px;
+  top: 124px;
   background: black;
   right: 0px;
   text-align: center;
   min-width: 450;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+label {
+  font-size: 2em;
 }
 
 nav ul {
@@ -44,4 +65,56 @@ nav li {
 
 #hamburger-menu:checked ~ nav {
   display: block;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+@media (min-width: 800px) {
+  main {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .jackets-content {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    border-left: solid;
+    border-right: solid;
+    border-color: var(--main-color-blue);
+  }
+
+  nav {
+    display: block;
+    position: static;
+    background-color: white;
+  }
+
+  nav a {
+    color: black;
+  }
+  nav li {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+  }
+
+  header label {
+    display: none;
+  }
 }
