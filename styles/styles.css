@@ -10,6 +10,7 @@ body {
 
 img {
   width: 100%;
+  height: 100%;
   max-width: 500px;
 }
 
@@ -17,26 +18,32 @@ img {
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  position: fixed;
+  justify-content: space-around;
   padding: 10px 20px;
-  border: solid 2px;
+  border-bottom: solid 2px;
   height: 100px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px;
+  background-color: white;
+  z-index: 1;
 }
 
 header img {
   max-width: 200px;
 }
+
 /* Navigation*/
 
 nav {
-  margin-left: 25px;
   display: none;
   position: fixed;
-  top: 124px;
+  top: 100px;
   background: black;
   right: 0px;
   text-align: center;
-  min-width: 450;
+  padding: 0px 50px 0px 50px;
 }
 
 nav a {
@@ -56,7 +63,7 @@ nav ul {
 
 nav li {
   display: block;
-  padding: 20px 30px;
+  padding: 20px;
 }
 
 #hamburger-menu {
@@ -67,6 +74,50 @@ nav li {
   display: block;
 }
 
+/* Buttons */
+
+.cta {
+  background-color: #14780d;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 37px;
+}
+
+/* Home page */
+.main-page {
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/exhibition-1863344_1920.jpg");
+  background-size: cover;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.main-page-content {
+  color: white;
+  grid-gap: 10px;
+  padding: 10px;
+  max-width: 900px;
+  text-align: center;
+}
+
+.index-space {
+  min-height: 150px;
+}
+
+.home-page-text {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  max-width: 900px;
+  position: relative;
+  top: -100px;
+}
 /* Footer */
 
 footer {
@@ -86,23 +137,20 @@ footer {
   }
 
   h1 {
-    font-size: 55px;
+    font-size: 90px;
     text-align: center;
-    font-weight: 800;
+    font-weight: bold;
   }
 
-  .jackets-content {
-    grid-template-columns: repeat(4, 1fr);
-    padding: 20px;
-    border-left: solid;
-    border-right: solid;
-    border-color: var(--main-color-blue);
+  h2 {
+    font-size: 28px;
+    font-weight: normal;
   }
 
   nav {
     display: block;
     position: static;
-    background-color: white;
+    background-color: transparent;
   }
 
   nav a {
@@ -116,5 +164,18 @@ footer {
 
   header label {
     display: none;
+  }
+
+  .home-pic-floater {
+    display: flex;
+    max-width: 900px;
+    min-width: 800px;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    top: -125px;
+  }
+  .home-pic-floater img {
+    max-width: 250px;
   }
 }
