@@ -156,7 +156,7 @@ a:hover {
   display: none;
 }
 
-.explore-main {
+.underpages-structure {
   display: grid;
   grid-template-columns: repeat(1);
 }
@@ -216,7 +216,7 @@ footer {
     top: -70px;
   }
 
-  .explore-main {
+  .underpages-structure {
     grid-template-columns: repeat(2, 1fr);
   }
   .explore-libary-picture {
@@ -230,7 +230,7 @@ footer {
   }
 
   h1 {
-    font-size: 90px;
+    font-size: 85px;
     text-align: center;
     font-weight: bold;
   }
