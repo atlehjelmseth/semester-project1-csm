@@ -11,21 +11,28 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  border-radius: 10%;
   max-width: 500px;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
 }
 
 h1 {
   font-size: 60px;
-  text-align: center;
   font-weight: bold;
+  margin-top: 110px;
+  text-align: center;
 }
 
 h2 {
   font-size: 24px;
   font-weight: normal;
   margin: 20px;
-  text-align: center;
+}
+
+.title {
+  font-weight: bold;
 }
 
 /* Header */
@@ -90,6 +97,11 @@ nav li {
 
 a:hover {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
 }
 
 /* Buttons */
@@ -138,6 +150,17 @@ a:hover {
   display: none;
 }
 
+/* Explore Page */
+
+.explore-libary-picture {
+  display: none;
+}
+
+.explore-main {
+  display: grid;
+  grid-template-columns: repeat(1);
+}
+
 /* Footer */
 
 footer {
@@ -167,12 +190,12 @@ footer {
 
   h1 {
     font-size: 60px;
-    text-align: center;
     font-weight: bold;
+    grid-column: -1/1;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: normal;
   }
 
@@ -192,6 +215,13 @@ footer {
     position: relative;
     top: -70px;
   }
+
+  .explore-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .explore-libary-picture {
+    display: block;
+  }
 }
 
 @media (min-width: 800px) {
@@ -206,7 +236,7 @@ footer {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: normal;
   }
 
