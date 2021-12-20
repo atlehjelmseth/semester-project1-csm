@@ -161,6 +161,12 @@ a:hover {
   grid-template-columns: repeat(1);
 }
 
+/* Events page */
+
+.hidden-pictures {
+  display: none;
+}
+
 /* Footer */
 
 footer {
@@ -220,6 +226,9 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
   .explore-libary-picture {
+    display: block;
+  }
+  .hidden-pictures {
     display: block;
   }
 }
