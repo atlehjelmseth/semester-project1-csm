@@ -156,6 +156,15 @@ a:hover {
   display: none;
 }
 
+.home-page-text {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  max-width: 900px;
+  position: relative;
+  padding: 20px;
+}
+
 /* Explore Page */
 
 .explore-libary-picture {
@@ -232,11 +241,6 @@ footer {
   }
 
   .home-page-text {
-    display: flex;
-    margin: auto;
-    text-align: center;
-    max-width: 900px;
-    position: relative;
     top: -70px;
   }
 
