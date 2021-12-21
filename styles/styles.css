@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-  font-family: "poppins";
+  font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: column;
   width: 100%;
