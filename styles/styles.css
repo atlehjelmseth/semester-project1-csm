@@ -8,6 +8,7 @@ body {
   margin: auto;
   max-width: 1200px;
   min-height: 100vh;
+  font-size: 20px;
 }
 
 img {
@@ -19,14 +20,14 @@ img {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   margin-top: 110px;
   text-align: center;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   margin: 20px;
 }
@@ -72,6 +73,7 @@ nav a {
   text-transform: uppercase;
   font-weight: bold;
   color: white;
+  font-size: 16px;
 }
 
 label {
@@ -200,11 +202,6 @@ footer {
     grid-column: -1/1;
   }
 
-  h2 {
-    font-size: 18px;
-    font-weight: normal;
-  }
-
   .cta {
     font-size: 32px;
     padding: 10px 37px;
@@ -242,11 +239,6 @@ footer {
     font-size: 85px;
     text-align: center;
     font-weight: bold;
-  }
-
-  h2 {
-    font-size: 20px;
-    font-weight: normal;
   }
 
   nav {
