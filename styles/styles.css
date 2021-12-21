@@ -185,6 +185,10 @@ li {
 
 iframe {
   margin: auto;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  border: none;
 }
 
 /* Footer */
@@ -246,6 +250,13 @@ footer {
   .image-hidden {
     display: block;
   }
+
+  iframe {
+    width: 260px;
+    height: 500px;
+    position: relative;
+    top: -350px;
+  }
 }
 
 @media (min-width: 800px) {
@@ -289,5 +300,11 @@ footer {
   }
   .home-pic-floater img {
     max-width: 250px;
+  }
+
+  iframe {
+    width: 360px;
+    height: 600px;
+    top: -155px;
   }
 }
