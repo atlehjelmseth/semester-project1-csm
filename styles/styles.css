@@ -36,6 +36,10 @@ h2 {
   font-weight: bold;
 }
 
+.text-box {
+  margin: 20px;
+}
+
 /* Header */
 header {
   display: flex;
@@ -165,8 +169,12 @@ a:hover {
 
 /* Events page */
 
-.hidden-pictures {
+.image-hidden {
   display: none;
+}
+
+.images-box {
+  margin: auto;
 }
 
 /* Footer */
@@ -225,7 +233,7 @@ footer {
   .explore-libary-picture {
     display: block;
   }
-  .hidden-pictures {
+  .image-hidden {
     display: block;
   }
 }
