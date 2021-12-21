@@ -177,6 +177,16 @@ a:hover {
   margin: auto;
 }
 
+/* Visit */
+
+li {
+  display: block;
+}
+
+iframe {
+  margin: auto;
+}
+
 /* Footer */
 
 footer {
