@@ -58,7 +58,7 @@ header {
   z-index: 1;
 }
 
-header img {
+.logo {
   max-width: 200px;
   max-height: 150px;
 }
