@@ -271,7 +271,6 @@ footer {
   h1 {
     font-size: 85px;
     text-align: center;
-    font-weight: bold;
   }
 
   nav {
@@ -294,13 +293,8 @@ footer {
   }
 
   .home-pic-floater {
-    display: flex;
     max-width: 900px;
     min-width: 800px;
-    justify-content: space-between;
-    margin: auto;
-    position: relative;
-    top: -125px;
   }
   .home-pic-floater img {
     max-width: 250px;
