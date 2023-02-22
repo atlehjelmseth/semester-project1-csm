@@ -1,6 +1,6 @@
-# Semester Prodject 1 - Community Science Museum
+# Semester Project 1 - Community Science Museum
 
-![image](https://github.com/atlehjelmseth/rainy-days/blob/main/RainyDays.png)
+![image](https://github.com/atlehjelmseth/semester-project1-csm/blob/main/csm.png)
 
 
 ## Description
