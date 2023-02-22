@@ -5,11 +5,13 @@
 
 ## Description
 
-This is a webshop for winter jackets. This contains
+A webpage for a science museum that contains:
 
-- A API-list of jackets
-- A shopping cart function
-- Contact form
+- Landing page
+- Explore page
+- Events page
+- Visit Page
+- Get involved page
 
 ## Built With
 
@@ -17,7 +19,6 @@ You can list a the tech stack that you've used over here
 
 - HTML
 - CSS
-- JavaScript
 
 ## Getting Started
 
@@ -26,7 +27,7 @@ You can list a the tech stack that you've used over here
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:atlehjelmseth/rainy-days.git
+git clone git@github.com:atlehjelmseth/semester-project1-csm.git
 ```
 
 2. Install the dependencies:
