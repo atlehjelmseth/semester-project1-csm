@@ -1,6 +1,6 @@
 # Semester Project 1 - Community Science Museum
 
-![image](https://github.com/atlehjelmseth/semester-project1-csm/blob/main/csm.png)
+![image](https://github.com/atlehjelmseth/atlehjelmseth/blob/main/images/csm.png)
 
 
 ## Description
